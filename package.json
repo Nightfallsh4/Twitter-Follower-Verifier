@@ -1,0 +1,21 @@
+{
+	"name": "Twitter_follow_checker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pnpm run --parallel start",
+		"dev": "pnpm run --parallel dev",
+		"build": "pnpm run --parallel build",
+		"install:all": "pnpm recursive install"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"next": "^14.1.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}
